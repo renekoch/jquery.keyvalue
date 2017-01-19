@@ -1,5 +1,4 @@
 #Key-Value jQuery plugin#
-=====================
 
 A very vanilla key value editor - needs more documentation, but it works.
 
