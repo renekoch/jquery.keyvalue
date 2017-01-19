@@ -1,3 +1,9 @@
+/**
+ keyvalue.js v0.1 
+ Copyright (c)2017-2018 Rene Koch.
+ Licensed under The MIT License.
+**/
+
 /*
  PLUGIN: keyvalue jQuery plugin
  AUTHOR: Rene Koch
