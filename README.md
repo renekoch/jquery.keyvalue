@@ -40,6 +40,19 @@ keydelete        when key is deleted
 keychange        when when key is changed
 ````
 
+**Gettin started**
+````html
+<html>
+<body>
+	<input class="keyvalue">
+</body>
+<script type="text/javascript">
+	$('input.keyvalue').keyvalue({values:{key1:"value"}});
+	var values = $('input.keyvalue').keyvalue('values');
+</script>
+</html>
+
+
 **HTML output example:**
 
 ````html
@@ -51,10 +64,3 @@ keychange        when when key is changed
 	</div>
 </div>
 ````
-
-**Usage**
-````javascript
-$('input.keyvalue').keyvalue({values:{key1:"value"}});
-
-var values = $('input.keyvalue').keyvalue('values');
-$('input.keyvalue').keyvalue('destroy');
