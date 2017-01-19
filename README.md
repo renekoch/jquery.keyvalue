@@ -19,21 +19,22 @@ onkeychange      set event keychange
 
 **METHODS:**
 
-
+````
 option([key])    get option
 values()         get key-value object
 focus()          set focus
 remove(key)      remove key         * not implemented *
 add(key, value)  add key            * not implemented *
-
+````
 
 **EVNETS:**
 
-
+````
 keyadd           when key is added
 keydelete        when key is deleted
 keychange        when when key is changed
 ````
+
 **HTML output example:**
 
 ````html
