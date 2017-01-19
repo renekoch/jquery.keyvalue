@@ -1,6 +1,6 @@
 **Key-Value jQuery plugin**
 
-A very vanilla key value editor
+A very vanilla key value editor -needs more documentation, but it works.
 
  
 **OPTIONS:**
@@ -23,6 +23,7 @@ onkeychange      set event keychange
 **METHODS:**
 
 ````
+destroy()    	 removes key value editor, and revert back to input
 option([key])    get option
 values()         get key-value object
 focus()          set focus
@@ -49,3 +50,10 @@ keychange        when when key is changed
 	</div>
 </div>
 ````
+
+**Usage**
+````javascript
+$('input.keyvalue').keyvalue({values:{key1:"value"}});
+
+var values = $('input.keyvalue').keyvalue('values');
+$('input.keyvalue').keyvalue('destroy');
