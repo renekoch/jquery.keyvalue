@@ -1,10 +1,10 @@
-**Key-Value jQuery plugin**
+#Key-Value jQuery plugin#
 =====================
 
 A very vanilla key value editor - needs more documentation, but it works.
 
  
-**OPTIONS:**
+##OPTIONS##
 
 ````
 values           key-value object      [default=json parse input value]
@@ -21,7 +21,7 @@ onkeydelete      set event keydelete
 onkeychange      set event keychange
 ````
 
-**METHODS:**
+##METHODS##
 
 ````
 destroy()    	 removes key value editor, and revert back to input
@@ -32,7 +32,7 @@ remove(key)      remove key         * not implemented *
 add(key, value)  add key            * not implemented *
 ````
 
-**EVNETS:**
+##EVENTS##
 
 ````
 keyadd           when key is added
@@ -40,7 +40,8 @@ keydelete        when key is deleted
 keychange        when when key is changed
 ````
 
-**Gettin started**
+##Gettin started##
+
 ````html
 <html>
 <body>
@@ -53,7 +54,7 @@ keychange        when when key is changed
 </html>
 ````
 
-**HTML output example:**
+##HTML output example##
 
 ````html
 <div class="keyvalue-wrap">
