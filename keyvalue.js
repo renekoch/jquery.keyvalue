@@ -51,7 +51,7 @@
 'lib/keyvalue',
 function ($) {
 	var
-		log = (window.console && console.info && console.info) || $.noop,
+		log = (window.console && console.info) || $.noop,
 		PLLUGINNAME = 'keyvalue',
 		DOT = '.',
 		DOT_PLLUGINNAME = DOT + PLLUGINNAME,
