@@ -32,7 +32,7 @@
  remove(key)      remove key         * not implemented *
  add(key, value)  add key            * not implemented *
 
- EVNETS:
+ EVENTS:
  ========
  keyadd           when key is added
  keydelete        when key is deleted
