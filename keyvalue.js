@@ -50,11 +50,10 @@
  </div>
  */
 
-;(function (name, module) {
-	(typeof define === 'function' && define.amd) ? define(name, ['jquery'], module) : module(jQuery || $);
+;(function (root, module) {
+	(typeof define === 'function' && define.amd) ? define(['jquery'], module) : module(root.jQuery || root.$);
 })(
-
-'lib/keyvalue',
+this,
 function ($) {
 	var
 		log = (window.console && console.info) || $.noop,
