@@ -64,3 +64,6 @@ keychange        when when key is changed
 	</div>
 </div>
 ````
+## License
+
+keyvalue.js is available under the [MIT license](http://opensource.org/licenses/MIT).
