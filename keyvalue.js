@@ -6,7 +6,7 @@
 ;(function (root, module) {
 	(typeof define === 'function' && define.amd) ? define(['jquery'], module) : module(root.jQuery || root.$);
 })(
-this,
+window,
 function ($) {
 	var
 		log = (window.console && console.info) || $.noop,
